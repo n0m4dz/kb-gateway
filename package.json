@@ -1,0 +1,27 @@
+{
+  "name": "amjilt-core",
+  "version": "3.0.0",
+  "description": "Amjilt core business logic for both web and app",
+  "main": "index.js",
+  "repository": "git@github.com:BITS-Team/amjilt-v3.git",
+  "author": "Amjilt",
+  "license": "Amjilt License",
+  "private": true,
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.15.9",
+    "@reduxjs/toolkit": "^1.6.2",
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
+    "lodash": "^4.17.21",
+    "react-i18next": "^11.12.0",
+    "react-redux": "^7.2.6",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.4.0"
+  },
+  "react-dotenv": {
+    "whitelist": [
+      "HOST",
+      "PORT"
+    ]
+  }
+}
